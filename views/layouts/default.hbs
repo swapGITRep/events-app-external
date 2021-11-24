@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Team Stellar Website</title>
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Team Stellar Website</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
+
 <body>
-  <div>
-      <h1>Welcome to Stellar events application</h1>
-    {{{body}}}
-</div>
-<div>
-  <h2>Add an event</h2>
-    <form action="/event" method="post">
-       <table>
-            <tr>
-                <td>
-                    title: 
-                </td>
-                <td>
-                    <input name="title" type="text" />
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    description:
-                </td>
-                <td>
-                     <input name="description" type="text" />
-                </td>
-            </tr>
-            <tr> 
-                <td colspan="2" align="center">
-                    <input type="submit" name="submit" value="submit" />
-                </td>
-            </tr>    
-        </table>
-    </form>
-</div>
+    <div>
+        <h1>Welcome to Stellar events application</h1>
+        {{{body}}}
+    </div>
+    <div>
+        <hr>
+        <h2>Add an event</h2>
+        <form action="/event" method="post">
+            <table>
+                <tr>
+                    <td>
+                        title:
+                    </td>
+                    <td>
+                        <input name="title" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        description:
+                    </td>
+                    <td>
+                        <input name="description" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="submit" value="submit" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
 </body>
+
 </html>
